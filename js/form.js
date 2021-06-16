@@ -20,7 +20,7 @@ class Form {
 
     
     this.button.position(300, 250);
-    this.button.mousePressed(function(){
+    this.button.mousePressed(()=>{
         this.input.hide()
         this.button.hide()
         player.name=this.input.value()
